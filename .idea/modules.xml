@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/mobx-ts-test.iml" filepath="$PROJECT_DIR$/.idea/mobx-ts-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mobx-first.iml" filepath="$PROJECT_DIR$/.idea/mobx-first.iml" />
     </modules>
   </component>
 </project>
