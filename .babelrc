@@ -1,6 +1,7 @@
 {
   "presets": [
-    "react-app", [
+    "react-app",
+    [
       "env",
       {
         "targets": {
@@ -10,8 +11,24 @@
     ]
   ],
   "plugins": [
-    ["@babel/plugin-proposal-decorators", { "legacy": true }],
-    ["@babel/plugin-proposal-class-properties", { "loose" : true }],
-    ["@babel/plugin-syntax-decorators"]
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }],
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
+      }
+    ],
+    [
+      "@babel/plugin-syntax-decorators",
+      {
+        "legacy": true
+      }
+    ]
   ]
 }
